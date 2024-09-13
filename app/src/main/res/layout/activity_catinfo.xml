@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg5">
+
+
+      <ImageView
+
+          android:layout_width="180dp"
+          android:layout_height="150dp"
+          android:src="@drawable/cat6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"/>
+      <TextView
+          android:layout_width="300dp"
+          android:layout_height="60dp"
+          android:layout_marginTop="260dp"
+          android:background="@drawable/txtbg1"
+          android:text="   You can expect to brush your bobtail once or  twice per week to remove shed hair and skin and  keep their coat shiny and healthy. "
+          android:textColor="@color/white"
+          android:fontFamily="@font/typewcond_bold"
+          />
+
+      <TextView
+          android:layout_width="300dp"
+          android:layout_height="60dp"
+          android:layout_marginTop="350dp"
+          android:layout_marginLeft="120dp"
+          android:textColor="@color/white"
+          android:text=" They do appreciate daily playtime,which should be around 30-60 minutes per day."
+          android:background="@drawable/txtbg1"
+          android:fontFamily="@font/typewcond_bold"/>
+      <TextView
+          android:layout_width="300dp"
+          android:layout_height="60dp"
+          android:layout_marginTop="450dp"
+          android:textColor="@color/white"
+          android:text="Obesity is a common problem in all breeds of cats, so it's important to follow feeding guidelines ."
+          android:background="@drawable/txtbg1"
+          android:fontFamily="@font/typewcond_bold"/>
+      <TextView
+          android:layout_width="300dp"
+          android:layout_height="80dp"
+          android:layout_marginTop="550dp"
+          android:layout_marginLeft="120dp"
+          android:textColor="@color/white"
+          android:text="Exercise provides mental stimulation for cats and helps prevent boredom, anxiety, and depression, which can lead to destructive behavior and other behavioral concerns"
+          android:background="@drawable/txtbg1"
+          android:fontFamily="@font/typewcond_bold"/>
+      <Button
+          android:id="@+id/btn3"
+          android:layout_width="200dp"
+          android:layout_height="50dp"
+          android:text="learn more.."
+          android:textSize="15dp"
+          android:layout_centerHorizontal="true"
+            android:layout_marginTop="640dp"
+          android:fontFamily="@font/typewcond_bold"/>
+      <ImageView
+          android:id="@+id/back"
+          android:layout_width="80dp"
+          android:layout_height="60dp"
+            android:src="@drawable/icon9"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We Want to know You Better"
+        android:fontFamily="@font/typewcond_bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:textColor="#ffd78a"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="220dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/happy3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:text="Pet Type"
+        android:textColor="#B1ABAB"
+        android:layout_marginLeft="20dp"/>
+    <Spinner
+        android:id="@+id/sp"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/input1"
+        android:layout_centerVertical="true"
+        android:spinnerMode="dropdown"
+        android:padding="8dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@drawable/cat7"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="295dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="405dp"
+        android:text="Male"
+        android:layout_marginLeft="90dp"
+        android:textSize="16dp"
+        android:textColor="@color/white"/>
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="130dp"/>
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="260dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="405dp"
+        android:text="Female"
+        android:layout_marginLeft="200dp"
+        android:textSize="16dp"
+        android:textColor="@color/white"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="455dp"
+        android:text="Breed"
+        android:textColor="#B1ABAB"
+        android:layout_marginLeft="20dp"/>
+    <Spinner
+        android:id="@+id/sp2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input1"
+        android:layout_centerVertical="true"
+        android:spinnerMode="dropdown"
+        android:padding="8dp"
+        />
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:text="Date of Birth"
+        android:textColor="#B1ABAB"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="565dp"
+        android:autofillHints="Coffe"
+        android:background="@drawable/input1"
+        android:padding="10dp"
+        />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:src="@drawable/icon11"
+    android:layout_marginTop="484dp"
+    android:layout_marginLeft="295dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@drawable/icon12"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="300dp"/>
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp"
+        android:text="Submit"
+        android:textSize="18dp"
+        android:fontFamily="@font/libration"
+        android:background="@drawable/pg1btn1"/>
+
+
+
+
+
+</RelativeLayout>

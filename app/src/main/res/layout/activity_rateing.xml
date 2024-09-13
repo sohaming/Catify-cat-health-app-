@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg5">
+
+   <ImageView
+       android:id="@+id/pls"
+       android:layout_width="220dp"
+       android:layout_height="170dp"
+       android:layout_marginLeft="70dp"
+       android:layout_marginTop="120dp"
+       android:src="@drawable/cat8" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="110dp"
+       android:text="RATE US GOOD.."
+      android:layout_marginTop="300dp"
+      android:fontFamily="@font/miky_mouse"
+      android:textColor="#FFC107"
+      android:textSize="35dp"/>
+
+   <RatingBar
+       android:layout_width="240dp"
+       android:layout_height="60dp"
+       android:rating="2"
+       android:outlineAmbientShadowColor="#FF9800"
+       android:layout_marginTop="420dp"
+       android:layout_centerHorizontal="true"
+       />
+   <Button
+      android:id="@+id/sub1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="550dp"
+      android:text="Submit"
+      android:background="@drawable/toptxt"
+       android:textColor="@color/black"
+      android:textSize="18dp"/>
+
+
+</RelativeLayout>

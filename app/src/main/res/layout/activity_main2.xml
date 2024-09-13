@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We healthify your Pet"
+        android:fontFamily="@font/typewcond_bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:textColor="#ffd78a"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="190dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/img1"
+        android:src="@drawable/happy" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="By continuing you accept our"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="380dp"
+       android:textColor="#A3AAAE"
+       android:textStyle="bold"
+
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:textColor="#FFC107"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:background="@drawable/pg1btn1"
+        android:text="Begin.."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:fontFamily="@font/libration"
+       />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="I Have Account!"
+        android:layout_marginTop="550dp"
+        android:fontFamily="@font/libration"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:layout_centerHorizontal="true"
+        android:text="Create an Acoount"
+        android:textColor="#FFC107"
+        android:textStyle="italic"/>
+    <ImageView
+        android:id="@+id/imgg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="620dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/img1"
+        android:src="@drawable/heartlove" />
+    
+
+
+
+
+
+</RelativeLayout>
